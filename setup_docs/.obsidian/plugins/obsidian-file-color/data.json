@@ -1,0 +1,52 @@
+{
+  "cascadeColors": false,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "wZaSZW-tsntE-A61fpGsa",
+      "name": "red",
+      "value": "#ff0000"
+    },
+    {
+      "id": "13quzDCQn4gRmX0DwXDMk",
+      "name": "green",
+      "value": "#00ff00"
+    },
+    {
+      "id": "IKxLU4sgMlI3-8r0NEbJg",
+      "name": "blue",
+      "value": "#0000ff"
+    },
+    {
+      "id": "EyI7ARrzHR5iFvKwgDvxw",
+      "name": "magenta",
+      "value": "#ff00ff"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "luoghi",
+      "color": "13quzDCQn4gRmX0DwXDMk"
+    },
+    {
+      "path": "oggetti",
+      "color": "IKxLU4sgMlI3-8r0NEbJg"
+    },
+    {
+      "path": "personaggi",
+      "color": "EyI7ARrzHR5iFvKwgDvxw"
+    },
+    {
+      "path": "personaggi/party",
+      "color": "wZaSZW-tsntE-A61fpGsa"
+    },
+    {
+      "path": "organizzazioni",
+      "color": "wZaSZW-tsntE-A61fpGsa"
+    },
+    {
+      "path": "Software",
+      "color": "IKxLU4sgMlI3-8r0NEbJg"
+    }
+  ]
+}
