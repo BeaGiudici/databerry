@@ -50,7 +50,9 @@
     "orco": 38,
     "ingegnere": 39,
     "tritone": 40,
-    "software": 41
+    "software": 41,
+    "docker": 42,
+    "dockerimage": 43
   },
   "_version": 3
 }

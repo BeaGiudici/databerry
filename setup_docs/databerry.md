@@ -12,3 +12,4 @@ Raspberry Pi OS Lite (64-bit)
 ## Software
 - [[OpenMediaVault]]
 - [[Docker]]
+- VPN: [[PiVPN]]
