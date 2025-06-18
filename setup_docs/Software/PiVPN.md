@@ -45,3 +45,13 @@ Having connection problems is really common. In order to understand what's going
 ```
 pivpn -d
 ```
+
+It can happen that the router does not forward the correct port. In this case, go to your router page (usually by just putting the IP address in the research bar); at this point goes under the configuration for NAT/PAT and add here the port you want to open. A summary example can be like
+
+| **Field**     | **Value**               |
+| ------------- | ----------------------- |
+| Service Name  | WireGuardVPN            |
+| Device IPv4   | `<your-pi-IP-address>`  |
+| External Port | the port you need       |
+| Internal Port | the same port as before |
+| Protocol      | UDP                     |
