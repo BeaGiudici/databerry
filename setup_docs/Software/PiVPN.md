@@ -12,7 +12,11 @@
 	- Default port: 51820
 5. When asked for DNS provider, choose `Custom` and enter the [[pihole]] IP.
 6. Create a profile with `pivpn add -n <profile-name>`
-
+7. Start the systemd:
+	```
+	sudo systemctl start wg-quick@wg0
+	sudo systemctl enable wg-quick@wg0
+	```
 ## Usage
 In the following, let's see how to use the VPN.
 
@@ -35,3 +39,9 @@ sudo wg-quick down <myprofile>
 ```
 
 **Pro-tip**: If you want to make VPN connection automatic at boot or login add `wg-quick up <myprofile>` to your `.bashrc`, `.profile`, or a systemd service.
+
+## Troubleshooting
+Having connection problems is really common. In order to understand what's going on, the debug command is very useful:
+```
+pivpn -d
+```
