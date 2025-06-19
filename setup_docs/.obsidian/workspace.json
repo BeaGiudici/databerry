@@ -72,12 +72,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fail2ban.md",
+                "file": "Software/pihole.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fail2ban"
+              "title": "pihole"
             }
           }
         ],
@@ -251,13 +251,13 @@
   },
   "active": "dd571b364e86c54d",
   "lastOpenFiles": [
+    "Software/Docker.md",
+    "fail2ban.md",
     "databerry.md",
     "miniconda.md",
-    "fail2ban.md",
     "Software/PiVPN.md",
     "Software/pihole.md",
     "Software/WireGuard.md",
-    "Software/Docker.md",
     "Software/OpenMediaVault.md",
     "Software",
     "Untitled.canvas",

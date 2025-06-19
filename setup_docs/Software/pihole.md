@@ -52,3 +52,8 @@ Be careful that other services might be using the port you are setting. In parti
 - `port 80`: edit the `docker-compose.yaml` file from `80:80` to `8080:80`.
 
 When everything is set up, you can connect to the web UI with `http://<your-pi-ip>:8080/admin`, using the password you set in the image, at `FTLCONF_webserver_api_password` (line 22 of the image above).
+
+## Web Interface
+You can connect to the web interface using http://<ip-address>:<port-number>. This will allow you to change the options of pi-hole in a nice GUI environment.
+
+It is useful to set up a DNS, so that we can connect to databerry using a hostname, without memorizing its IP address. In order to do so, go to **Settings** -> **Local DNS Records**. Here, you can add the domain and its IP address. Usually, most systems (especially systemd-resolved) are fussy about "bare" hostnames unless they are defined in `/etc/hosts` or the system is set to search domain suffixes (like `.local`, `.lan`, etc.). I am not a fan of changing `/etc/hosts`, so I opted for setting a suffix. You can set a common domain name in Pi-hole, just go under **Settings** -> **DNS** -> **DNS domain settings**. Here, you can set a Pi-hole domain name. Flag the "Expand hostnames" option to automatically expand the hostnames. 
