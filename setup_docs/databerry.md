@@ -13,3 +13,5 @@ Raspberry Pi OS Lite (64-bit)
 - [[OpenMediaVault]]
 - [[Docker]]
 - VPN: [[PiVPN]]
+- [[fail2ban]]
+- [[miniconda]]
